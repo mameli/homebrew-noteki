@@ -3,8 +3,12 @@
 [Noteki](https://github.com/mameli/Noteki) is a light native macOS app to read and write the Markdown notes of an Obsidian vault.
 
 ```sh
-brew install --cask mameli/noteki/noteki
+brew tap mameli/noteki
+brew trust mameli/noteki
+brew install --cask noteki
 ```
+
+Homebrew asks to trust a tap that is not its own once (`brew trust`). Noteki then updates itself: `brew upgrade` leaves it alone.
 
 Uninstall with `brew uninstall --cask noteki`; add `--zap` to also delete Noteki's settings. Your notes are never touched: they stay in your vault.
 
