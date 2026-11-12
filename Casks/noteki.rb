@@ -1,6 +1,6 @@
 cask "noteki" do
-  version "0.2.3"
-  sha256 "6017e5e905ee026a30626c49918d03d100581b0d9f18b6d2d5462d1f70dcf04f"
+  version "0.3.0"
+  sha256 "cdc4d3deffc4296c02c33e36cb2c40ea7c1af42434f4fc070ac04cbe8591615c"
 
   url "https://github.com/mameli/Noteki/releases/download/v#{version}/Noteki-#{version}.dmg"
   name "Noteki"
@@ -11,6 +11,8 @@ cask "noteki" do
     url :url
     strategy :github_latest
   end
+
+  auto_updates true
 
   depends_on arch: :arm64
   depends_on macos: :sequoia
