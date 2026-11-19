@@ -1,6 +1,6 @@
 # Homebrew tap for Noteki
 
-[Noteki](https://github.com/mameli/Noteki) is a light native macOS app to read and write the Markdown notes of an Obsidian vault.
+[Noteki](https://github.com/mameli/Noteki) is a light native app to read and write the Markdown notes of an Obsidian vault, written in Rust. This tap installs the Mac app.
 
 ```sh
 brew tap mameli/noteki
