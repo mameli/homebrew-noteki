@@ -1,6 +1,6 @@
 cask "noteki" do
-  version "0.4.1"
-  sha256 "899f76a39f4984f79f6600d75de17fd1d60dfceec97bc05add0379e76dc904d1"
+  version "0.4.2"
+  sha256 "d64f1c60ce6fdb9922b897ac4df765ec6ee163b0365583b33bc7af7b429ea1be"
 
   url "https://github.com/mameli/Noteki/releases/download/v#{version}/Noteki-#{version}.dmg"
   name "Noteki"
