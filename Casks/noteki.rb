@@ -1,6 +1,6 @@
 cask "noteki" do
-  version "0.4.5"
-  sha256 "073b4f30d80d9e92e5eab3a5a32142fad6be5cb7133c3b175d80f41ea8678929"
+  version "0.4.6"
+  sha256 "7cccf8a96ccacc68fab0e1694cad35d95229d9af4e507fb042580428265a8136"
 
   url "https://github.com/mameli/Noteki/releases/download/v#{version}/Noteki-#{version}.dmg"
   name "Noteki"
@@ -18,6 +18,7 @@ cask "noteki" do
   depends_on macos: :sequoia
 
   app "Noteki.app"
+  binary "#{appdir}/Noteki.app/Contents/Resources/noteki"
 
   uninstall quit: "app.noteki.noteki"
 
